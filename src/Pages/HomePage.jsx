@@ -1,6 +1,6 @@
 import AboutUs from "../Component/AboutUs";
 import Clients from "../Component/Clients";
-import FaqPage from "../Component/FAQPAGE";
+import FaqPage from "../Component/FaqPage";
 import Footer from "../Component/Footer";
 import HeroSection from "../Component/HeroSection";
 import Services from "../Component/Services";
