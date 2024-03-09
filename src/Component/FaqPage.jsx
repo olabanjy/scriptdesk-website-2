@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FAQ = () => {
+const FaqPage = () => {
   const [expanded, setExpanded] = useState({});
 
   const toggleQuestion = (index) => {
@@ -54,23 +54,6 @@ const FAQ = () => {
               ) : (
                 <p className="font-[600] text-[30px] text-[#333333]">+</p>
               )}
-
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className={`h-6 w-6 ${
-                  expanded[index] ? "transform rotate-180" : ""
-                }`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg> */}
             </div>
             {expanded[index] && (
               <p className="mt-2 text-gray-600">{faq.answer}</p>
@@ -82,4 +65,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default FaqPage;

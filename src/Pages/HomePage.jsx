@@ -1,6 +1,6 @@
 import AboutUs from "../Component/AboutUs";
 import Clients from "../Component/Clients";
-import FAQ from "../Component/FAQ";
+import FaqPage from "../Component/FAQPAGE";
 import Footer from "../Component/Footer";
 import HeroSection from "../Component/HeroSection";
 import Services from "../Component/Services";
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Clients />
       <Team />
       <Testimonials />
-      <FAQ />
+      <FaqPage />
       <Footer />
     </div>
   );
