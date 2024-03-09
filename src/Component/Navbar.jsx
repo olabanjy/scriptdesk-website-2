@@ -23,24 +23,16 @@ const Navbar = () => {
           >
             <ul className="grid md:flex gap-5 my-5 md:gap-10 list-none text-[14px] lg:text-[20px] font-[400]">
               <li>
-                <Link to="/about" className="link">
-                  About Us
-                </Link>
+                <a href="#about">About Us</a>
               </li>
               <li>
-                <Link to="/services" className="link">
-                  Services
-                </Link>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <Link to="/clients" className="link">
-                  Clients
-                </Link>
+                <a href="#clients">Clients</a>
               </li>
               <li>
-                <Link to="/team" className="link">
-                  Team
-                </Link>
+                <a href="#team">Team</a>
               </li>
             </ul>
           </div>

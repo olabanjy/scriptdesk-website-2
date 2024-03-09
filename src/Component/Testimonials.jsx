@@ -36,7 +36,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className=" py-40">
+    <div className=" py-40 bg-[#F8F8F8]">
       <div className="max-w-5xl md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 mb-[43px]">
         <p className="text-[#333333] text-[14px] lg:text-[15px] mb-[22px]">
           WHAT OUR CLIENTS SAY

@@ -3,19 +3,20 @@ import { useState } from "react";
 const FAQ = () => {
   const [expanded, setExpanded] = useState({});
 
-  // const toggleQuestion = (index) => {
-  //   setExpanded((prevState) => ({
-  //     ...prevState,
-  //     [index]: !prevState[index],
-  //   }));
-  // };
   const toggleQuestion = (index) => {
-    setExpanded((prevIndex) => (prevIndex === index ? null : index));
+    setExpanded((prevState) => {
+      const updatedState = {};
+      Object.keys(prevState).forEach((key) => {
+        updatedState[key] = false;
+      });
+      updatedState[index] = !prevState[index];
+      return updatedState;
+    });
   };
 
   const faqs = [
     {
-      question: "What is Lorem Ipsum?",
+      question: "Which services do you provide?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
@@ -24,23 +25,37 @@ const FAQ = () => {
       answer:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     },
-    // Add more FAQ items as needed
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
-      <h2 className="text-2xl font-semibold mb-4">
-        Frequently Asked Questions
-      </h2>
-      <div className="space-y-4">
+    <div className=" max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[70px]">
+      <p className="text-[#333333] text-[14px] lg:text-[15px] mb-[22px]">
+        FAQs
+      </p>
+      <p className="font-[600] text-[18px] lg:text-[20px] text-[#333333]">
+        FREQUENTLY ASKED QUESTIONS
+      </p>
+
+      <div className="space-y-4 mt-[50px]">
         {faqs.map((faq, index) => (
-          <div key={index} className="border rounded p-4">
+          <div
+            key={index}
+            className="border border-[#00083D] border-opacity-30 rounded-[10px] py-[17px] px-[30px]"
+          >
             <div
               className="flex justify-between items-center cursor-pointer"
               onClick={() => toggleQuestion(index)}
             >
-              <h3 className="text-lg font-medium">{faq.question}</h3>
-              <svg
+              <h3 className="text-[16px] font-[400] text-[#616161]">
+                {faq.question}
+              </h3>
+              {expanded[index] ? (
+                <p className="font-[600] text-[30px] text-[#333333]">-</p>
+              ) : (
+                <p className="font-[600] text-[30px] text-[#333333]">+</p>
+              )}
+
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className={`h-6 w-6 ${
                   expanded[index] ? "transform rotate-180" : ""
@@ -55,7 +70,7 @@ const FAQ = () => {
                   strokeWidth={2}
                   d="M19 9l-7 7-7-7"
                 />
-              </svg>
+              </svg> */}
             </div>
             {expanded[index] && (
               <p className="mt-2 text-gray-600">{faq.answer}</p>

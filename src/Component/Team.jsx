@@ -44,7 +44,10 @@ const Team = () => {
   };
 
   return (
-    <div className="  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]">
+    <div
+      className="  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]"
+      id="team"
+    >
       <p className=" text-[#333333] text-[14px] lg:text-[15px] mb-[22px]">
         INSIDE SCRIPTDESK
       </p>
