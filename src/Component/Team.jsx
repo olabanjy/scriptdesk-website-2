@@ -51,7 +51,7 @@ const Team = () => {
 
   return (
     <div
-      className="  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]"
+      className="overflow-hidden  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]"
       id="team"
     >
       <p className=" text-[#333333] text-[14px] lg:text-[15px] mb-[22px]">
@@ -67,7 +67,11 @@ const Team = () => {
             className=" max-w-[300px] 2xl:w-[600px] max-h-[510px] rounded-[10px]"
             data-aos="fade-left"
           >
-            <img src={Team1} alt="" className=" bg-cover" />
+            <img
+              src={Team1}
+              alt=""
+              className=" bg-cover transition-transform duration-1000 transform scale-100 hover:scale-110"
+            />
             <div className=" py-[24px]">
               <p className=" text-[#333333] text-[20px] font-[500]">
                 Ramsey Bucknor
@@ -82,7 +86,11 @@ const Team = () => {
             className="max-w-[300px] 2xl:w-[600px] max-h-[510px] rounded-[10px]"
             data-aos="fade-right"
           >
-            <img src={Team2} alt="" className=" bg-cover" />
+            <img
+              src={Team2}
+              alt=""
+              className=" bg-cover transition-transform duration-1000 transform scale-100 hover:scale-110"
+            />
             <div className=" py-[24px]">
               <p className=" text-[#333333] text-[20px] font-[500]">
                 Ramsey Bucknor
@@ -97,7 +105,11 @@ const Team = () => {
             className=" max-w-[300px] 2xl:w-[600px] max-h-[510px] rounded-[10px]"
             data-aos="fade-down"
           >
-            <img src={Team3} alt="" className=" bg-cover" />
+            <img
+              src={Team3}
+              alt=""
+              className=" bg-cover transition-transform duration-1000 transform scale-100 hover:scale-110"
+            />
             <div className=" py-[24px]">
               <p className=" text-[#333333] text-[20px] font-[500]">
                 Ramsey Bucknor

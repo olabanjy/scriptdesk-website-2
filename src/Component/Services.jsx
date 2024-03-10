@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
   return (
     <div
-      className="  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]"
+      className="overflow-hidden  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]"
       id="services"
     >
       <p className=" text-[#333333] text-[14px] lg:text-[15px] mb-[22px]">

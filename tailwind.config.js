@@ -6,6 +6,9 @@ export default {
       backgroundImage: {
         HeroImage: "url('/src/assets/heroBG.svg')",
       },
+      fontFamily: {
+        CeraGr: ["Cera Gr", "sans-serif"],
+      },
     },
   },
   plugins: [],

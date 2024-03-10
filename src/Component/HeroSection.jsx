@@ -9,7 +9,7 @@ const HeroSection = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className=" ">
+    <div className="overflow-hidden">
       <div className=" bg-HeroImage w-full bg-cover bg-center ">
         <Navbar />
 
@@ -30,14 +30,16 @@ const HeroSection = () => {
               et. Enim congue malesuada tellus ut. Dictumst tortor adipiscing
               vitae ornare faucibus iaculis purus. Tristique{" "}
             </p>
-            <div className="" data-aos="fade-up">
-              <p className=" rounded-[10px] inline-flex items-center gap-[8px] text-[#292D33] text-[16px] lg:text-[18px] py-[13px] px-[50px] lg:px-[60px] bg-[#ffffff] font-[500]">
-                Work with us{" "}
-                <span>
-                  {" "}
-                  <img src={Arrow} alt="" />
-                </span>
-              </p>
+            <div className=" cursor-pointer" data-aos="fade-up">
+              <a href="#contact">
+                <p className=" rounded-[10px] inline-flex items-center gap-[8px] text-[#292D33] text-[16px] lg:text-[18px] py-[13px] px-[50px] lg:px-[60px] bg-[#ffffff] font-[500]">
+                  Work with us{" "}
+                  <span>
+                    {" "}
+                    <img src={Arrow} alt="" />
+                  </span>
+                </p>
+              </a>
             </div>
           </div>
         </div>

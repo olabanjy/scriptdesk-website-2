@@ -34,7 +34,7 @@ const Footer = () => {
               Need help with your startup idea, or a project?, contact us for
               more inquiries and information.
             </p>
-            <div className="">
+            <div className="" id="contact">
               <p className=" rounded-[10px] inline-flex items-center gap-[8px] text-[#292D33] text-[16px] lg:text-[18px] py-[13px] px-[50px] lg:px-[60px] bg-[#ffffff] font-[500]">
                 Contact Us{" "}
                 <span>

@@ -8,7 +8,8 @@ const Navbar = () => {
   const [open, setopen] = useState(true);
 
   return (
-    <div className=" py-[40px] sticky z-50 top-0 transition-all duration-300 ease-in-out">
+    // <div className=" py-[40px] sticky z-50 top-0 transition-all duration-300 ease-in-out">
+    <div className=" py-[40px] ">
       <div className="max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40">
         <div className="grid md:flex justify-between items-center">
           <div className="w-[150px] md:w-[200px] mt-5 md:mt-0">
@@ -45,7 +46,7 @@ const Navbar = () => {
             </div>
           ) : (
             <div
-              className="absolute top-[40px] right-4 md:hidden cursor-pointer text-white"
+              className="absolute top-[70px] right-4 md:hidden cursor-pointer text-white"
               onClick={() => setopen(true)}
             >
               <CloseLineIcon />

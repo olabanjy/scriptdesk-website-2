@@ -22,7 +22,8 @@ const Testimonials = () => {
     },
     {
       quote:
-        "Lorem ipsum dolor sit amet consectetur. In pharetra erat nunc convallis consectetur cursus accumsan risus.",
+        "Lorem ipsum dolor sit amet consectetur. In pharetra erat nunc convallis consectetur cursus accumsan risus. Enim tortor mus pellentesque nullam dolor vel placerat. Dapibus viverra tristique sit vel scelerisque. Integer dictum elit vulputate senectus. Odio posuere justo adipiscing arcu fusce bibendum. Vel fames eget tortor pulvinar dolor a morbi scelerisque. Lectus nisl pharetra elit dignissim purus morbi ut. Viverra donec est porttitor egestas sed lorem.",
+
       author: "John Doe",
       position: "CTO, ABC Company.",
     },
@@ -41,7 +42,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className=" py-40 bg-[#F8F8F8]">
+    <div className=" overflow-hidden py-40 bg-[#F8F8F8]">
       <div className="max-w-5xl md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 mb-[43px]">
         <p className="text-[#333333] text-[14px] lg:text-[15px] mb-[22px]">
           WHAT OUR CLIENTS SAY

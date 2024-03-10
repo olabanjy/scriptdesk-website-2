@@ -4,7 +4,7 @@ import HomePage from "./Pages/HomePage";
 
 function App() {
   return (
-    <div>
+    <div className=" font-CeraGr">
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
