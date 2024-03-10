@@ -4,8 +4,13 @@ import profile from "../assets/profile.png";
 import say from "../assets/WHAT OUR CLIENTS SAY.png";
 import Prev from "../assets/prev.svg";
 import Next from "../assets/Next.svg";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Testimonials = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials = [
@@ -45,7 +50,10 @@ const Testimonials = () => {
           TESTIMONIAL
         </p>
 
-        <div className="mt-[49px] bg-[#363A40] rounded-[10px] shadow-lg p-[45px] flex-grow max-w-[880px] mx-auto">
+        <div
+          className="mt-[49px] bg-[#363A40] rounded-[10px] shadow-lg p-[45px] flex-grow max-w-[880px] mx-auto"
+          data-aos="fade-down"
+        >
           <img src={Quote} alt="" className="mb-[37px]" />
           <p className="text-[#D8D8D8] mb-[79px] text-[16px] ">
             {testimonials[currentIndex].quote}
@@ -68,9 +76,9 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col-reverse lg:flex-row items-end mx-[18px] mb-[20px]">
+      <div className=" flex flex-col-reverse lg:flex-row items-end mx-[18px] mb-[20px] ">
         <img src={say} alt="" className=" max-w-[345px] lg:max-w-full" />
-        <div className="flex items-center mt-4 gap-[13px]">
+        <div className="flex items-center mt-4 gap-[13px] ">
           <button onClick={prevTestimonial} className="">
             <img src={Prev} alt="" />
           </button>

@@ -1,8 +1,16 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const AboutUs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div
       className="  max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px]"
       id="about"
+      data-aos="fade-down"
     >
       <p className=" text-[#333333] text-[15px] mb-[22px]">OUR STORY</p>
       <p className=" font-[500] text-[20px] text-[#333333]">ABOUT US</p>

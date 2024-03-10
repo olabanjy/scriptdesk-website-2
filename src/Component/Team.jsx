@@ -4,7 +4,13 @@ import Team3 from "../assets/Team (4).svg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Team = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const settings = {
     dots: false,
     infinite: true,
@@ -57,7 +63,10 @@ const Team = () => {
 
       <div className=" mt-[44px]">
         <Slider {...settings} className="">
-          <div className=" h-[510px] rounded-[10px]">
+          <div
+            className=" max-w-[300px] 2xl:w-[600px] max-h-[510px] rounded-[10px]"
+            data-aos="fade-left"
+          >
             <img src={Team1} alt="" className=" bg-cover" />
             <div className=" py-[24px]">
               <p className=" text-[#333333] text-[20px] font-[500]">
@@ -69,7 +78,10 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="  h-[510px] rounded-[10px]">
+          <div
+            className="max-w-[300px] 2xl:w-[600px] max-h-[510px] rounded-[10px]"
+            data-aos="fade-right"
+          >
             <img src={Team2} alt="" className=" bg-cover" />
             <div className=" py-[24px]">
               <p className=" text-[#333333] text-[20px] font-[500]">
@@ -81,7 +93,10 @@ const Team = () => {
             </div>
           </div>
 
-          <div className=" h-[510px] rounded-[10px]">
+          <div
+            className=" max-w-[300px] 2xl:w-[600px] max-h-[510px] rounded-[10px]"
+            data-aos="fade-down"
+          >
             <img src={Team3} alt="" className=" bg-cover" />
             <div className=" py-[24px]">
               <p className=" text-[#333333] text-[20px] font-[500]">
