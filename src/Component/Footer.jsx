@@ -7,8 +7,8 @@ import linkedin from "../assets/ant-design_linkedin-filled.svg";
 const Footer = () => {
   return (
     <div className=" bg-[#292D33]">
-      <div className=" max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[70px]">
-        <img src={logo} alt="" className=" mb-[51px]" />
+      <div className=" max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[40px] 2xl:py-[70px]">
+        <img src={logo} alt="" className=" mb-25px lg:mb-[51px]" />
 
         <div className=" grid lg:grid-cols-2 gap-[10px] lg:gap-[192px]">
           <div className=" grid gap-[26px]">
@@ -22,9 +22,13 @@ const Footer = () => {
             <p className=" text-[14px] lg:text-[18px] text-white">
               No 6, Lara Ademola Street, Lekki, Lagos Nigeria
             </p>
-            <p className=" text-[14px] lg:text-[18px] text-white underline">
+            <a
+              href="mailto:info@scriptdeskng.com"
+              className="text-[14px] lg:text-[18px] text-white underline"
+            >
               info@scriptdeskng.com
-            </p>
+            </a>
+
             <p className=" text-[14px] lg:text-[18px] text-white">
               +234 704 241 1717, +234 813 749 8991
             </p>
