@@ -15,23 +15,25 @@ const AboutUs = () => {
       <p className=" text-[#333333] text-[15px] mb-[22px]">OUR STORY</p>
       <p className=" font-[500] text-[20px] text-[#333333]">ABOUT US</p>
       <p className=" text-[#333333] text-[26px] font-[600] mt-[26px]">
-        Whether it’s for today, tomorrow or several years into the future, our
-        aim is to build solutions that matter
+        Hello, world! Whether it&apos;s for today, tomorrow or several years
+        into the future, our aim is to build solutions that matter
       </p>
       <div className=" mt-[26px]">
         <p className=" mt-[26px] text-[18px] text-[#616161]">
-          Lorem ipsum dolor sit amet consectetur. Diam eget pellentesque eu et.
-          Enim congue malesuada tellus ut. Dictumst tortor adipiscing vitae
-          ornare faucibus iaculis purus. Tristique Lorem ipsum dolor sit amet
-          consectetur. Diam eget pellentesque eu et. Enim congue malesuada
-          tellus ut. Dictumst tortor adipiscing vitae ornare faucibus iaculis
-          purus. Tristique{" "}
+          While writing code and designing products and websites is essential,
+          we believe it&apos;s only the beginning. Kicking it up a notch, we
+          take things a step further by creating digital experiences that leave
+          a lasting impression. We combine creativity, technical expertise, and
+          a user-centric approach to deliver exceptional digital solutions, so
+          whether it&apos;s a website, application, or platform, we strive to
+          create experiences that resonate with your audience and drive your
+          business forward.
         </p>
         <p className=" py-[22px] text-[18px] text-[#616161]">
-          Lorem ipsum dolor sit amet consectetur. Diam eget pellentesque eu et.
-          Enim congue malesuada tellus ut. Dictumst tortor adipiscing vitae
-          ornare faucibus iaculis purus. Tristique Lorem ipsum dolor sit amet
-          consectetur.{" "}
+          ScriptDesk understands that the digital landscape is constantly
+          evolving. That&apos;s why we&apos;re committed to staying ahead of the
+          curve, leveraging the latest technologies to ensure that your business
+          remains competitive and relevant, today and for years to come.
         </p>
       </div>
     </div>

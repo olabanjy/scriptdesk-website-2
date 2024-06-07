@@ -8,11 +8,10 @@ const Navbar = () => {
   const [open, setopen] = useState(true);
 
   return (
-    // <div className=" py-[40px] sticky z-50 top-0 transition-all duration-300 ease-in-out">
-    <div className=" py-[40px] ">
-      <div className="max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40">
+    <div className="sticky top-0 bg-[#292D33] pb-[10px] pt-[40px] z-50">
+      <div className="max-w-5xl md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40">
         <div className="grid md:flex justify-between items-center">
-          <div className="w-[150px] md:w-[200px] mt-5 md:mt-0">
+          <div className="w-[150px] max-h-[52px] md:w-[200px] mt-5 md:mt-0">
             <Link to="/">
               <img src={Logo} alt="" />
             </Link>

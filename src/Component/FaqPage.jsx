@@ -18,12 +18,23 @@ const FaqPage = () => {
     {
       question: "Which services do you provide?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "We provide a wide array of IT solutions, including product development, AI technology, business automation tools, and mobile marketing.",
     },
     {
-      question: "Why do we use it?",
+      question:
+        "Do you offer assistance with technical issues and customer support?",
       answer:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Trust us to come through for you and your business when any tech troubles or customer support needs come up while we're working together on any services.",
+    },
+    {
+      question: "Can you design custom products on request?",
+      answer:
+        "Absolutely! Our custom products and platforms are crafted to help you seamlessly achieve your goals. Our collaborative approach ensures seamless integration and personalized solutions that help you achieve your goals.",
+    },
+    {
+      question: "What's your business's financial model?",
+      answer:
+        "We operate a transparent pricing structure, charging a flat fee for development and a monthly maintenance percentage, ensuring you receive exceptional value for your investment.",
     },
   ];
 

@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import Arrow from "../assets/arrowright.svg";
 import Dot from "../assets/dot.svg";
 import Aos from "aos";
@@ -11,24 +11,21 @@ const HeroSection = () => {
   return (
     <div className="overflow-hidden">
       <div className=" bg-HeroImage w-full bg-cover bg-center ">
-        <Navbar />
-
         <div className=" max-w-5xl  md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-[70px]">
           <div className=" max-w-[800px] grid gap-[50px]">
             <p
               className=" text-white text-[20px] lg:text-[40px] font-[500] "
               data-aos="fade-left"
             >
-              Your Bridge To Digital Transformation; Catalyzing Growth through
-              Cutting-Edge IT Solutions
+              Helping you navigate the technology landscape, one solution at a
+              time.
             </p>
             <p
               className=" text-[#BDBDBD] text-[14px] lg:text-[20px]"
               data-aos="fade-right"
             >
-              Lorem ipsum dolor sit amet consectetur. Diam eget pellentesque eu
-              et. Enim congue malesuada tellus ut. Dictumst tortor adipiscing
-              vitae ornare faucibus iaculis purus. Tristique{" "}
+              Transforming your business with Awesome IT Solutions, Cool Tech,
+              and A+++ Service, through revolutionary technology
             </p>
             <div className=" cursor-pointer" data-aos="fade-up">
               <a href="#contact">

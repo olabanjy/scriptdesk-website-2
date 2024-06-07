@@ -16,16 +16,23 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote:
-        "Lorem ipsum dolor sit amet consectetur. In pharetra erat nunc convallis consectetur cursus accumsan risus. Enim tortor mus pellentesque nullam dolor vel placerat. Dapibus viverra tristique sit vel scelerisque. Integer dictum elit vulputate senectus. Odio posuere justo adipiscing arcu fusce bibendum. Vel fames eget tortor pulvinar dolor a morbi scelerisque. Lectus nisl pharetra elit dignissim purus morbi ut. Viverra donec est porttitor egestas sed lorem.",
-      author: "Michael Banks",
-      position: "CEO, Wells Supermarket.",
+        "I can't say enough good things about Script Desk. They have transformed the way we do business, saving us time, money, and headaches along the way",
+      author: "Fopefoluwa Ogunnubi",
+      position: "Client",
     },
     {
       quote:
-        "Lorem ipsum dolor sit amet consectetur. In pharetra erat nunc convallis consectetur cursus accumsan risus. Enim tortor mus pellentesque nullam dolor vel placerat. Dapibus viverra tristique sit vel scelerisque. Integer dictum elit vulputate senectus. Odio posuere justo adipiscing arcu fusce bibendum. Vel fames eget tortor pulvinar dolor a morbi scelerisque. Lectus nisl pharetra elit dignissim purus morbi ut. Viverra donec est porttitor egestas sed lorem.",
+        "As a small business owner, reaching a large audience was a significant challenge. But thanks to Script Desk's mobile marketing and boost solutions, I'm not sure I can still call myself a small business owner! Their setup has helped my business grow exponentially, and I'm thrilled with the results.",
 
-      author: "John Doe",
-      position: "CTO, ABC Company.",
+      author: "Seun from AjikeOloge",
+      position: "Client",
+    },
+    {
+      quote:
+        "We brought on a product that we were not entirely able to figure out at first, but Script Desk helped us get up to speed. They quickly identified the issues and got to work, making the transition super smooth. They're still supporting us and we're loving the efficiency and productivity boost we're seeing",
+
+      author: "Kenny from Ekondo Microfinance",
+      position: "Client",
     },
   ];
 

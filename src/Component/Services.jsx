@@ -32,7 +32,7 @@ const Services = () => {
             className="  bg-cover h-full transition-transform duration-1000 transform scale-100 hover:scale-110"
           />
           <div className=" py-[30px] text-center font-[500] w-full rounded-b-[10px] absolute bottom-0 bg-[#000000] bg-opacity-45 border border-white border-opacity-45">
-            <p className=" text-[16px] text-white">Software Development</p>
+            <p className=" text-[16px] text-white">Product development</p>
           </div>
         </div>
         <div
@@ -58,7 +58,7 @@ const Services = () => {
             className="  bg-cover h-full transition-transform duration-1000 transform scale-100 hover:scale-110"
           />
           <div className=" py-[30px] text-center font-[500] w-full rounded-b-[10px] absolute bottom-0 bg-[#000000] bg-opacity-45 border border-white border-opacity-45">
-            <p className=" text-[16px] text-white">Automation Tools</p>
+            <p className=" text-[16px] text-white">Business Automation tools</p>
           </div>
         </div>
         <div
@@ -71,7 +71,7 @@ const Services = () => {
             className=" bg-cover h-full transition-transform duration-1000 transform scale-100 hover:scale-110"
           />
           <div className="  py-[30px] text-center font-[500] w-full rounded-b-[10px] absolute bottom-0 bg-[#000000] bg-opacity-45 border border-white border-opacity-45">
-            <p className=" text-[16px] text-white">Data</p>
+            <p className=" text-[16px] text-white">Mobile marketing</p>
           </div>
         </div>
       </div>
