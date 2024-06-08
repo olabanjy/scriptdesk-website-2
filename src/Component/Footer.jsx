@@ -24,7 +24,7 @@ const Footer = ({ toggleModal }) => {
             </p>
             <a
               href="mailto:hello@scriptdeskng.com"
-              className="text-[14px] lg:text-[18px] bg-red-500 text-white underline "
+              className="text-[14px] lg:text-[18px] text-white underline "
             >
               <p>hello@scriptdeskng.com</p>
             </a>
