@@ -9,8 +9,15 @@ import Services from "../Component/Services";
 import Team from "../Component/Team";
 import Testimonials from "../Component/Testimonials";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
+import ContactFormModal from "../Component/ContactFormModal";
 
 const HomePage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   const [isVisible, setIsVisible] = useState(false);
 
   const scrollToTop = () => {
@@ -35,14 +42,15 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <HeroSection toggleModal={toggleModal} />
       <AboutUs />
       <Services />
       <Clients />
       <Team />
       <Testimonials />
       <FaqPage />
-      <Footer />
+      <Footer toggleModal={toggleModal} />
+      <ContactFormModal isModalOpen={isModalOpen} toggleModal={toggleModal} />
 
       {isVisible && (
         <button

@@ -1,10 +1,11 @@
-// import Navbar from "./Navbar";
 import Arrow from "../assets/arrowright.svg";
 import Dot from "../assets/dot.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-const HeroSection = () => {
+import PropTypes from "prop-types";
+
+const HeroSection = ({ toggleModal }) => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -28,15 +29,16 @@ const HeroSection = () => {
               and A+++ Service, through revolutionary technology
             </p>
             <div className=" cursor-pointer" data-aos="fade-up">
-              <a href="#contact">
-                <p className=" rounded-[10px] inline-flex items-center gap-[8px] text-[#292D33] text-[16px] lg:text-[18px] py-[13px] px-[50px] lg:px-[60px] bg-[#ffffff] font-[500]">
-                  Work with us{" "}
-                  <span>
-                    {" "}
-                    <img src={Arrow} alt="" />
-                  </span>
-                </p>
-              </a>
+              <p
+                className=" rounded-[10px] inline-flex items-center gap-[8px] text-[#292D33] text-[16px] lg:text-[18px] py-[13px] px-[50px] lg:px-[60px] bg-[#ffffff] font-[500]"
+                onClick={toggleModal}
+              >
+                Work with us{" "}
+                <span>
+                  {" "}
+                  <img src={Arrow} alt="" />
+                </span>
+              </p>
             </div>
           </div>
         </div>
@@ -78,4 +80,7 @@ const HeroSection = () => {
   );
 };
 
+HeroSection.propTypes = {
+  toggleModal: PropTypes.func.isRequired,
+};
 export default HeroSection;

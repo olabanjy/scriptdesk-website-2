@@ -59,7 +59,7 @@ const Team = () => {
       aos: "fade-left",
     },
     {
-      name: "ED Ibekwe",
+      name: "Ed Ibekwe",
       position: "Lead, Business Development",
       image: Team2,
       aos: "fade-right",
