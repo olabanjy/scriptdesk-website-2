@@ -1,12 +1,14 @@
-import Peak from "../assets/Peak.svg";
-import GUO from "../assets/GUO.svg";
-import Alpha from "../assets/Alpha.svg";
-import ASO from "../assets/ASO.svg";
-import EK from "../assets/EK.svg";
-import Reliance from "../assets/Reliance.svg";
-import Branch from "../assets/Branch.svg";
-import Farm from "../assets/Farm.svg";
-import BellaNaija from "../assets/BellaNaija.svg";
+import mobile from "../assets/9mobile.jpg";
+import Airtel from "../assets/airtel.svg";
+import Mtn from "../assets/mtn.svg";
+import Evolution from "../assets/21stEvolution.jpg";
+import LogoPreffered from "../assets/LogoPreffered.png";
+import MagicCarpetlogo from "../assets/MagicCarpetlogo.png";
+import logob from "../assets/logob.png";
+import BrandCo from "../assets/BrandCo-site-logo.png";
+import HML from "../assets/HML.jpg";
+import blacktree from "../assets/blacktree.png";
+import CloudIntegrated from "../assets/CloudIntegrated.svg";
 
 const Clients = () => {
   return (
@@ -21,16 +23,18 @@ const Clients = () => {
         SOME OF THE BRANDS & STARTUPS WE’VE WORKED WITH OVER THE YEARS
       </p>
 
-      <div className=" mt-[26px] grid grid-cols-2 gap-[60px]  lg:grid-cols-5 items-center justify-center">
-        <img src={GUO} alt="" className=" bg-cover" />
-        <img src={Alpha} alt="" className=" bg-cover" />
-        <img src={Peak} alt="" className=" bg-cover" />
-        <img src={ASO} alt="" className=" bg-cover" />
-        <img src={EK} alt="" className=" bg-cover" />
-        <img src={Reliance} alt="" className=" bg-cover " />
-        <img src={Branch} alt="" className=" bg-cover" />
-        <img src={Farm} alt="" className=" bg-cover" />
-        <img src={BellaNaija} alt="" className=" bg-cover" />
+      <div className=" mt-[26px] grid grid-cols-2 gap-[60px]  lg:grid-cols-5 items-center justify-center place-items-center">
+        <img src={Airtel} alt="" className=" bg-cover" />
+        <img src={Mtn} alt="" className=" bg-cover" />
+        <img src={Evolution} alt="" className=" bg-cover" />
+        <img src={LogoPreffered} alt="" className=" bg-cover" />
+        <img src={blacktree} alt="" className=" bg-cover" />
+        <img src={MagicCarpetlogo} alt="" className=" bg-cover " />
+        <img src={logob} alt="" className=" bg-cover" />
+        <img src={BrandCo} alt="" className=" bg-cover" />
+        <img src={HML} alt="" className=" bg-cover" />
+        <img src={mobile} alt="" className=" bg-cover" />
+        <img src={CloudIntegrated} alt="" className=" bg-cover" />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Team1 from "../assets/Akindele Marvellous Olakiiitan.jpg";
 import Team2 from "../assets/ED.jpeg";
-import Team3 from "../assets/Team (4).svg";
+import Team3 from "../assets/Olushola Odunwo-Albert.jpg";
 
 const Team = () => {
   useEffect(() => {
@@ -54,19 +54,19 @@ const Team = () => {
   const teamData = [
     {
       name: "Akindele Marvellous Olakiiitan",
-      position: "Operations Lead, Script Desk",
+      position: "Lead, Operations",
       image: Team1,
       aos: "fade-left",
     },
     {
-      name: "Ramsey Bucknor",
-      position: "HR Manager",
+      name: "ED Ibekwe",
+      position: "Lead, Business Development",
       image: Team2,
       aos: "fade-right",
     },
     {
-      name: "Ramsey Bucknor",
-      position: "HR Manager",
+      name: "Olushola Odunwo-Albert",
+      position: "Lead, Software Engineering",
       image: Team3,
       aos: "fade-down",
     },
