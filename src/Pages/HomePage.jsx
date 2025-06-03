@@ -10,9 +10,26 @@ import Team from "../Component/Team";
 import Testimonials from "../Component/Testimonials";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 import ContactFormModal from "../Component/ContactFormModal";
+import { Toaster, toast } from 'sonner';
 
 const HomePage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+
+  const showMessage = (e) => {
+    switch (e?.status) {
+      case "success":
+        toast.success(e.message)
+        break;
+
+      case "error":
+        toast.error(e.message)
+        break;
+
+      default:
+        break;
+    }
+  }
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
@@ -41,6 +58,7 @@ const HomePage = () => {
   }, []);
   return (
     <div>
+      <Toaster richColors position="top-right" />
       <Navbar />
       <HeroSection toggleModal={toggleModal} />
       <AboutUs />
@@ -50,7 +68,7 @@ const HomePage = () => {
       <Testimonials />
       <FaqPage />
       <Footer toggleModal={toggleModal} />
-      <ContactFormModal isModalOpen={isModalOpen} toggleModal={toggleModal} />
+      <ContactFormModal toastMessage={(e) => showMessage(e)} isModalOpen={isModalOpen} toggleModal={toggleModal} />
 
       {isVisible && (
         <button
