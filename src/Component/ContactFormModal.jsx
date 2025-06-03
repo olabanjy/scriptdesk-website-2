@@ -144,9 +144,12 @@ const ContactFormModal = ({ isModalOpen, toggleModal, toastMessage }) => {
               <button
                 disabled={loading}
                 type="submit"
-                className="bg-[#292D33] disabled:bg-slate-700 disabled:cursor-wait text-center py-[12px] text-white rounded-[8px] text-[16px] w-full"
+                className="bg-[#292D33] disabled:bg-slate-400 disabled:cursor-wait text-center py-[12px] text-white rounded-[8px] text-[16px] w-full"
               >
-                Send message
+                {
+                  loading ? "Sending..." : "Send message"
+                }
+                
               </button>
             </div>
           </form>
