@@ -66,16 +66,16 @@ const Team = () => {
       aos: "fade-right",
     },
     {
-      name: "Olushola Odunwo-Albert",
-      position: "Lead, Software Engineering",
-      image: Team3,
-      aos: "fade-down",
-    },
-    {
       name: "Bamidele Kehinde",
       position: "Lead, Business Development",
       image: Team4,
       aos: "fade-up",
+    },
+    {
+      name: "Olushola Odunwo-Albert",
+      position: "Lead, Software Engineering",
+      image: Team3,
+      aos: "fade-down",
     },
   ];
 
