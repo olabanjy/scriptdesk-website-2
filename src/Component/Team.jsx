@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import Team1 from "../assets/Akindele Marvellous Olakiiitan.jpg";
 import Team2 from "../assets/ED.jpeg";
 import Team3 from "../assets/Olushola Odunwo-Albert.jpg";
+import Team4 from "../assets/lawyer_kenny.jpeg";
 
 const Team = () => {
   useEffect(() => {
@@ -60,7 +61,7 @@ const Team = () => {
     },
     {
       name: "Ed Ibekwe",
-      position: "Lead, Business Development",
+      position: "Lead, Strategy & Expansion",
       image: Team2,
       aos: "fade-right",
     },
@@ -69,6 +70,12 @@ const Team = () => {
       position: "Lead, Software Engineering",
       image: Team3,
       aos: "fade-down",
+    },
+    {
+      name: "Bamidele Kehinde",
+      position: "Lead, Business Development",
+      image: Team4,
+      aos: "fade-up",
     },
   ];
 
