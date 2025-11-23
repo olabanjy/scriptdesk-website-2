@@ -859,9 +859,7 @@ const CodeOfConductPage = () => {
             <div className="mb-8">
               <p className="font-bold text-base mb-1">Odunwo-Albert Olushola Olabanji</p>
               <p className="mb-1">Director</p>
-              <p className="text-sm mb-1">+2348137498991, +2347042411717</p>
               <p className="text-sm mb-1">hello@scriptdeskng.com // www.scriptdeskng.com</p>
-              <p className="text-sm">No 6 Lara Ademola Street, Lekki, Lagos State, 101245, Nigeria</p>
             </div>
           </div>
         </div>
