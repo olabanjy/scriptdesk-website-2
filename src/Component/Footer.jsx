@@ -4,6 +4,7 @@ import Insta from "../assets/ri_instagram-fill.svg";
 import twitter from "../assets/mage_x.svg";
 import linkedin from "../assets/ant-design_linkedin-filled.svg";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Footer = ({ toggleModal }) => {
   return (
@@ -32,6 +33,13 @@ const Footer = ({ toggleModal }) => {
             <p className="text-[14px] lg:text-[18px] text-white">
               +234 704 241 1717, +234 813 749 8991
             </p>
+            
+            <Link 
+              to="/code-of-conduct"
+              className="text-[14px] lg:text-[16px] text-[#BDBDBD] underline hover:text-white transition-colors"
+            >
+              Consumer Code of Practice
+            </Link>
           </div>
           <div className="grid gap-[26px]">
             <p className="text-[20px] text-[#BDBDBD]">

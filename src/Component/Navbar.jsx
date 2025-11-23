@@ -34,6 +34,9 @@ const Navbar = () => {
               <li>
                 <a href="#team">Team</a>
               </li>
+              <li>
+                <Link to="/code-of-conduct">Code of Practice</Link>
+              </li>
             </ul>
           </div>
           {open === true ? (
